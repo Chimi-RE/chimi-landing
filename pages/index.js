@@ -26,8 +26,18 @@ export default function Home() {
         />
         <Tile
           title="Google Drive"
-          description="File Storage and sharing"
+          description="File storage and sharing"
           url="https://drive.google.com"
+        />
+        <Tile
+          title="Google Calendar"
+          description="Manage appointments and events"
+          url="https://calendar.google.com/"
+        />
+        <Tile
+          title="Calendly"
+          description="Manage appointments"
+          url="https://calendly.com/chimi-realestate"
         />
       </div>
     </>
