@@ -1,18 +1,35 @@
-import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
-import utilStyles from "../styles/utils.module.css";
-
 import Link from "next/link";
-import Date from "../components/date";
 import Tile from "../components/Tile";
+import NavBar from "../components/NavBar";
 
 export default function Home() {
   return (
-    <Layout home>
-      <Head>
-        <title>Chimi Real Estate</title>
-      </Head>
-      <Tile />
-    </Layout>
+    <>
+      <NavBar />
+      <div className="grid grid-cols-3 gap-5 mx-2 mt-2">
+        <Tile
+          title="Documents"
+          description="How to screen, communicate, manage tenants"
+          linkText="Go to Documents"
+          url="https://app.clickup.com/8625442/v/dc/87792-165"
+        />
+        <Tile
+          title="Applicant Screening - Airtable"
+          description="Keep the records of rental applicants"
+          linkText="Go to Airtable"
+          url="https://airtable.com/invite/l?inviteId=invMz90yetlZzwXX9&inviteToken=3357ecdda2b175f6267ad38a40f06ab283e5044fc041a42fd3582c7fcdfac3e7&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts"
+        />
+        <Tile
+          title="RentRedi"
+          description="Manage tenant, payment and maintenance requests"
+          url="https://app.rentredi.com"
+        />
+        <Tile
+          title="Google Drive"
+          description="File Storage and sharing"
+          url="https://drive.google.com"
+        />
+      </div>
+    </>
   );
 }
