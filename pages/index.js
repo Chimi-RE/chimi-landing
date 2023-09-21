@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      <div className="grid grid-cols-3 gap-5 mx-2 mt-2">
+      <div className="grid grid-cols-1 gap-5 mx-2 mt-2 md:grid-cols-2 lg:grid-cols-3">
         <Tile
           title="Documents"
           description="How to screen, communicate, manage tenants"
