@@ -44,6 +44,11 @@ export default function Home() {
           description="E-Signitures"
           url="https://app.docusign.com/home"
         />
+        <Tile
+          title="CRM"
+          description="Customer relationship management tool"
+          url="https://chimi-crm.vercel.app"
+        />
       </div>
     </>
   );
