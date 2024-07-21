@@ -35,9 +35,9 @@ export default function Home() {
           url="https://calendar.google.com/"
         />
         <Tile
-          title="Calendly"
-          description="Manage appointments"
-          url="https://calendly.com/chimi-realestate"
+          title="Contractors"
+          description="Contact info for all the contractors"
+          url="https://chimi-build.vercel.app/contractors"
         />
         <Tile
           title="Docusign"
